@@ -1,0 +1,51 @@
+# Ignore Python byte code and cache files
+__pycache__/
+*.pyc
+
+# Ignore environment-specific files
+.env
+.env.*
+
+# Ignore virtual environment folders (if you're using venv)
+venv/
+venv3/
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.pycharm
+*.pyc
+
+# Ignore logs and other generated files
+logs/
+*.log
+
+# Ignore dependencies installed via pip
+/lib/
+/lib64/
+/dist/
+/build/
+*.egg-info/
+.env
+
+# Ignore any local configuration files
+instance/
+
+# Ignore database files
+*.sqlite
+
+# Ignore pytest cache and temporary files
+__pycache__/
+.pytest_cache/
+
+# Ignore Python coverage files
+.coverage
+
+# Ignore any compiled Python files
+*.pyc
+*.pyo
+
+# Ignore system-specific files
+.DS_Store
